@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aditya2460/Portfolio.git"
+  },
+  "author": "Aditya Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aditya2460/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Aditya2460/Portfolio#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "nodemailer": "^8.0.4",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^3.1.14"
+  }
+}
