@@ -18,7 +18,7 @@ app.use(express.static("./Mern_Portfolio/dist"))
 
 // routes
 app.use("/api/v1/portfolio",routes)
-app.use("*",(req,res)=>{
+app.use((req,res)=>{
     res.sendFile(path.join(__dirname,"./Mern_Portfolio/dist/index.html"))
 })
 
